@@ -25,6 +25,7 @@ A partir da assinatura conhecida de um portador de COH-PIAH, o programa deverá 
 
 Após calcular esses valores para cada texto, você deve compará-los com a assinatura fornecida para os infectados por COH-PIAH. O grau de similaridade entre dois textos,
 A e B, é dado pela fórmula:
+
 ![formula](https://user-images.githubusercontent.com/71527962/136276331-4547bfe9-8487-441d-8cef-7a8b1be7b2a9.jpg)
 
 Onde:
@@ -39,6 +40,8 @@ Onde:
   i,b é o valor de cada traço linguístico i no texto b.
 
 Nesse caso, o texto b não é conhecido, mas tem a assinatura correspondente: a assinatura de um aluno infectado com COH-PIAH. Ou seja, é sabido o valor de  f(i,b) que é dado como valor de entrada do programa. 
+
+![formula-explicada](https://user-images.githubusercontent.com/71527962/136277996-456d5e79-73e2-41d4-8cfa-a658a21ed787.jpg)
 
 
 Perceba que quanto mais similares A e B forem, menor  S{ab} será. 
